@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_main_menu">
+        <item>@string/array_main_menu_enroll</item>
+        <item>@string/array_main_menu_validate</item>
+        <item>@string/array_main_menu_clear_enrollment</item>
+	</string-array>
+    
+</resources>

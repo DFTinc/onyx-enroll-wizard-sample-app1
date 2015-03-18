@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/onyx-enroll-wizard-sample11.iml" filepath="$PROJECT_DIR$/onyx-enroll-wizard-sample11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onyxenrollwizardsampleapp/onyxenrollwizardsampleapp.iml" filepath="$PROJECT_DIR$/onyxenrollwizardsampleapp/onyxenrollwizardsampleapp.iml" />
+    </modules>
+  </component>
+</project>
+

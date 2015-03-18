@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">onyx-enroll-wizard-sample-app</string>
+    
+    <!-- Replace this string with your ONYX license key -->
+    <string name="onyx_license">YOUR-LICENSE-KEY-HERE</string>
+    
+        <!-- actionbar menu items-->
+    <string name="action_main_menu">Main Menu</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- alert dialog text -->
+    <string name="alert_add_user_image">Add User Image</string>
+    <string name="alert_exit_title">Exit?</string>
+    <string name="alert_exit_message">Are you sure you want to exit this application?</string>
+    <string name="alert_clear_enroll_title">Clear Enrollment</string>
+    <string name="alert_clear_enroll_message">Are you sure you want to clear the enrolled fingerprint?</string>
+    
+    <!-- array values -->
+    <string name="array_main_menu_enroll">Enroll</string>
+    <string name="array_main_menu_validate">Validate</string>
+    <string name="array_main_menu_clear_enrollment">Clear Enrollment</string>
+    
+    <!-- Toast strings -->
+    <string name="toast_deleting_enrolled_fingerprint">Deleting enrolled fingerprint.</string>
+    <string name="toast_no_enrolled_fingerprint">No enrolled fingerprint.</string>
+    <string name="toast_enroll_success_message">Successfully enrolled.</string>
+    <string name="toast_enroll_fail_message">Failed to enroll, or enrollment canceled.</string>
+    <string name="toast_verify_success_message">Verification success!</string>
+
+</resources>

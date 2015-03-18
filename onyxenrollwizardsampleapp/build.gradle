@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.onyx_enroll_wizard_sample_app"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url 'http://nexus.diamondfortress.com/nexus/content/repositories/releases'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v13:21.0.3'
+    compile 'com.dft:onyx-enroll-wizard:1.4.1.0'
+}
