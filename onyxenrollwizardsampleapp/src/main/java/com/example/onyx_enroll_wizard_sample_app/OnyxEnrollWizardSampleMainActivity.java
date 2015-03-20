@@ -74,14 +74,14 @@ public class OnyxEnrollWizardSampleMainActivity extends ListActivity {
 		if (item.equals(getResources().getString(R.string.array_main_menu_enroll))) {
 			// First, generate an intent for the OnyxGuideActivity
             Intent onyxSelfEnrollIntent = new SelfEnrollIntentHelper().getSelfEnrollIntent(this,
-                    "9942-7081-2285-1-2");
+                    "YOUR_LICENSE_KEY_HERE");
 			// Then start it for result
 			startActivityForResult(onyxSelfEnrollIntent, ENROLL_REQUEST_CODE);
 		}
 		if (item.equals(getResources().getString(R.string.array_main_menu_validate))) {
 			if (fingerprintExists()) {
 				Intent verifyIntent = VerifyIntentHelper.getVerifyActivityIntent(
-						this, "9942-7081-2285-1-2");
+						this, "YOUR_LICENSE_KEY_HERE");
 				startActivityForResult(verifyIntent, VERIFY_REQUEST_CODE);	
 			} else {
 				Toast.makeText(this, getResources().getString(R.string.toast_no_enrolled_fingerprint),
