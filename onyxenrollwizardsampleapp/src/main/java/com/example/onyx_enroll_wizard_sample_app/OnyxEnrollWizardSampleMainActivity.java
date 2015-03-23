@@ -17,7 +17,6 @@ import com.dft.onyx.FingerprintTemplate;
 import com.dft.onyx.core;
 import com.dft.onyx.enroll.util.Consts;
 import com.dft.onyx.enroll.util.EnrolledFingerprintDetails;
-import com.dft.onyx.guide.OnyxGuideIntentHelper;
 import com.dft.onyx.verify.VerifyIntentHelper;
 import com.dft.onyx.wizardroid.enrollwizard.SelfEnrollIntentHelper;
 
@@ -74,14 +73,14 @@ public class OnyxEnrollWizardSampleMainActivity extends ListActivity {
 		if (item.equals(getResources().getString(R.string.array_main_menu_enroll))) {
 			// First, generate an intent for the OnyxGuideActivity
             Intent onyxSelfEnrollIntent = new SelfEnrollIntentHelper().getSelfEnrollIntent(this,
-                    "YOUR_LICENSE_KEY_HERE");
+                    getString(R.string.onyx_license));
 			// Then start it for result
 			startActivityForResult(onyxSelfEnrollIntent, ENROLL_REQUEST_CODE);
 		}
 		if (item.equals(getResources().getString(R.string.array_main_menu_validate))) {
 			if (fingerprintExists()) {
 				Intent verifyIntent = VerifyIntentHelper.getVerifyActivityIntent(
-						this, "YOUR_LICENSE_KEY_HERE");
+						this, getString(R.string.onyx_license));
 				startActivityForResult(verifyIntent, VERIFY_REQUEST_CODE);	
 			} else {
 				Toast.makeText(this, getResources().getString(R.string.toast_no_enrolled_fingerprint),
