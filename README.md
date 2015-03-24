@@ -5,7 +5,7 @@ Getting Started
 
 If you don't already have Android Studio, you can download it [here][1].
 
-Once Android Studio is installed, please get your free ONYX trial-license [here][2].
+Once Android Studio is installed, please get your free ONYX trial-license [here][2]. <br />
 **Note: Make sure you have updated to the latest Android SDK via the SDK Manager.**
 
 You should receive a trial license of the form XXXX-XXXX-XXXX-X-X at your provided e-mail address.
