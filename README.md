@@ -26,7 +26,7 @@ Place the trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings.
     ...
 
 This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+"gradlew build" command or use "Build >> Make Project" in Android Studio.
 
 Now plug in your compatible device, and select Run >> Run 'onyxenrollwizardsampleapp'.
 
