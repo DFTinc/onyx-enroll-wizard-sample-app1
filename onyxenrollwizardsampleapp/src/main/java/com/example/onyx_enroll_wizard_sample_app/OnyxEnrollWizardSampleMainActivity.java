@@ -28,7 +28,7 @@ public class OnyxEnrollWizardSampleMainActivity extends ListActivity {
 	private String[] mMainMenuArray;
 	private ArrayAdapter<String> mMainMenuArrayAdapter;
 
-    private static final String TAG = "OnyxEnrollWizardSampleMainActivity";
+    private static final String TAG = "OnyxEnrollWizardSample";
 
     static {
         if(!OpenCVLoader.initDebug()) {

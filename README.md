@@ -6,6 +6,7 @@ Getting Started
 If you don't already have Android Studio, you can download it [here][1].
 
 Once Android Studio is installed, please get your free ONYX trial-license [here][2].
+**Note: Make sure you have updated to the latest Android SDK via the SDK Manager.**
 
 You should receive a trial license of the form XXXX-XXXX-XXXX-X-X at your provided e-mail address.
 Place this trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings.xml` shown below:
@@ -15,7 +16,7 @@ Place this trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings
     ...
 
 This sample uses the Gradle build system. To build this project, use the
-"gradle build" command or use "Import Project" in Android Studio.
+"gradlew build" command or use "Import Project" in Android Studio.
 
 Now plug in your compatible device, and select Run >> Run 'onyxenrollwizardsampleapp'.
 
