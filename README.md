@@ -3,9 +3,9 @@
 Getting Started
 ---------------
 
-If you don't already have Android Studio, you can download it [here][1].
+If you don't already have Android Studio, you can download it <a href="http://developer.android.com/sdk/index.html" target="_blank">here</a>.
 
-Once Android Studio is installed, please get your free ONYX trial-license [here][2]. <br />
+Once Android Studio is installed, please get your free ONYX trial-license <a href="http://www.diamondfortress.com/sdk" target="_blank">here</a>. <br />
 **Note: Make sure you have updated to the latest Android SDK via the SDK Manager.**
 
 You should receive a trial license of the form XXXX-XXXX-XXXX-X-X at your provided e-mail address.
@@ -29,6 +29,3 @@ Support
 
 - Diamond Fortress Technologies Support Site: http://support.diamondfortress.com/
 - Diamond Fortress Technologies Phone: 1-855-785-8646
-
-[1]: http://developer.android.com/sdk/index.html
-[2]: http://www.diamondfortress.com/sdk
