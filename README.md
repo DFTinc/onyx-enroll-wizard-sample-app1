@@ -30,4 +30,4 @@ Now plug in your compatible device, and select Run >> Run 'onyxenrollwizardsampl
 Support
 -------
 
-- Diamond Fortress Technologies Support Site: <a href="http://support.diamondfortress.com/" target="_blank">http://support.diamondfortress.com/</a>
+- Diamond Fortress Technologies Support Site: <a href="http://support.diamondfortress.com" target="_blank">support.diamondfortress.com</a>
