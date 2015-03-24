@@ -15,7 +15,7 @@ Next, you can clone our sample repository on the command-line using the followin
     > cd <YOUR_DEVELOPMENT_ROOT>
     > git clone https://github.com/DFTinc/onyx-enroll-wizard-sample-app1.git
     
-Alternatively, you can perform the clone the project via Android Studio:
+Alternatively, you can clone the project via Android Studio:
 <br/><br/>
 Select `VCS >> Checkout from Version Control >> GitHub`, and follow the on-screen instructions.
 
