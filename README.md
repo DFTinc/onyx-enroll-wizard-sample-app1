@@ -30,5 +30,4 @@ Now plug in your compatible device, and select Run >> Run 'onyxenrollwizardsampl
 Support
 -------
 
-- Diamond Fortress Technologies Support Site: http://support.diamondfortress.com/
-- Diamond Fortress Technologies Phone: 1-855-785-8646
+- Diamond Fortress Technologies Support Site: <a href="http://support.diamondfortress.com/" target="_blank">http://support.diamondfortress.com/</a>
