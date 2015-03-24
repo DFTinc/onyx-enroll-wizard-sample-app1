@@ -9,7 +9,11 @@ Once Android Studio is installed, please get your free ONYX trial-license [here]
 **Note: Make sure you have updated to the latest Android SDK via the SDK Manager.**
 
 You should receive a trial license of the form XXXX-XXXX-XXXX-X-X at your provided e-mail address.
-Place this trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings.xml` shown below:
+
+    > cd <YOUR_DEVELOPMENT_ROOT>
+    > git clone https://github.com/DFTinc/onyx-enroll-wizard-sample-app1.git
+
+Place the trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings.xml` shown below:
 
     ...
     <string name="onyx_license">XXXX-XXXX-XXXX-X-X</string>
