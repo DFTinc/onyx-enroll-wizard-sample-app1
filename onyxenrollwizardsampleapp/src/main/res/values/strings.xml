@@ -4,7 +4,7 @@
     <string name="app_name">onyx-enroll-wizard-sample-app</string>
     
     <!-- Replace this string with your ONYX license key -->
-    <string name="onyx_license">YOUR-LICENSE-KEY-HERE</string>
+    <string name="onyx_license">@string/license_key_value</string>
     
         <!-- actionbar menu items-->
     <string name="action_main_menu">Main Menu</string>

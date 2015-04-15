@@ -31,6 +31,8 @@ proguard/
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
+license.xml
+*.iml
 .DS_Store
 
 

@@ -19,11 +19,18 @@ Alternatively, you can clone the project via Android Studio:
 <br/>
 Select `VCS >> Checkout from Version Control >> GitHub`, and follow the on-screen instructions.
 
-Place the trial key into `onyxenrollwizardsampleapp/src/main/res/values/strings.xml` shown below:
+Right click on `onyxenrollwizardsampleapp/src/main/res/values` and select 
+"New >> Values resource file". Name the file `license.xml`, and place the following contents into
+this file as shown below:
 
-    ...
-    <string name="onyx_license">XXXX-XXXX-XXXX-X-X</string>
-    ...
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <!-- Replace this string with your ONYX license key -->
+        <string name="license_key_value">YOUR-LICENSE-KEY-HERE</string>
+    </resources>
+    
+license.xml will be automatically ignored from the git repository, so you don't need to worry about
+your license becoming publicly accessible.
 
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Build >> Make Project" in Android Studio.
