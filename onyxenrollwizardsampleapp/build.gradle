@@ -36,5 +36,5 @@ repositories {
 
 dependencies {
     compile 'com.android.support:support-v13:21.0.3'
-    compile 'com.dft.android:onyx-enroll-wizard:4.1.3'
+    compile 'com.dft.android:onyx-enroll-wizard:4.1.13'
 }
