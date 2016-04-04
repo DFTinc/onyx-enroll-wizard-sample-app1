@@ -32,7 +32,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.dft.onyx.wizardroid.enrollwizard.SelfEnrollWizardActivity"
+            android:name="com.dft.onyx.wizardroid.enrollwizard.SelfEnrollWizard"
             android:screenOrientation="portrait" >
         </activity>
         <activity
