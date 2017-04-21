@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.onyx_enroll_wizard_sample_app"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 22
     }
 
@@ -36,5 +36,5 @@ repositories {
 
 dependencies {
     compile 'com.android.support:support-v13:21.0.3'
-    compile 'com.dft.android:onyx-enroll-wizard:4.1.13'
+    compile 'com.dft.android:onyx-enroll-wizard:4.1.25'
 }
